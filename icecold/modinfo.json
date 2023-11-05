@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "icecold",
+    "name": "icecold",
+    "authors": [
+        "Cind12"
+    ],
+    "description": "Freezing cold water is now dangerous to fall in and lake ice can break under your feet.",
+    "version": "0.5.1",
+    "dependencies": {
+        "game": ""
+    }
+}

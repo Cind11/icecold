@@ -1,0 +1,32 @@
+[
+  {
+    "file": "game:entities/humanoid/player.json",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": { "code": "freezeInWater" }
+  },
+  {
+    "file": "game:entities/humanoid/player.json",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": { "code": "freezeInWater" }
+  },
+  {
+    "file": "game:blocktypes/liquid/lakeice.json",
+    "op": "replace",
+    "path": "/class",
+    "value": "BreakingBlockLakeIce"
+  },
+  {
+    "file": "game:blocktypes/liquid/lakeice.json",
+    "op": "add",
+    "path": "/sounds/break",
+    "value": "block/glass"
+  },
+  {
+    "file": "game:blocktypes/liquid/snowlayer.json",
+    "op": "replace",
+    "path": "/class",
+    "value": "CollideThroughSnowLayer"
+  }
+]
